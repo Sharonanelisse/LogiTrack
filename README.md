@@ -1,9 +1,11 @@
-#Proyecto LogiTrack
+# Proyecto LogiTrack
 
 Docker code:
-`docker run --name postgres-logitrack -e POSTGRES_PASSWORD=admin123 -e POSTGRES_USER=postgres -e POSTGRES_DB=logitrack -p 5433:5432 -d postgres`
+```bash
+docker run --name postgres-logitrack -e POSTGRES_PASSWORD=admin123 -e POSTGRES_USER=postgres -e POSTGRES_DB=logitrack -p 5433:5432 -d postgres`
+```
 
-SQL para agregar data de prueba
+## SQL para agregar data de prueba
 -- Customers
 INSERT INTO Customer (customerId, fullName, NIT, email, address, active)
 VALUES 

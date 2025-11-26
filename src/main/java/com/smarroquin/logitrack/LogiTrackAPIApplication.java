@@ -1,4 +1,8 @@
 package com.smarroquin.logitrack;
 
-public class LogiTrackAPIApplication {
+import jakarta.ws.rs.ApplicationPath;
+import jakarta.ws.rs.core.Application;
+
+@ApplicationPath("/api/v1")
+public class LogiTrackAPIApplication extends Application {
 }

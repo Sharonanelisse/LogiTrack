@@ -1,4 +1,4 @@
-package com.smarroquin.logitrack;
+package com.smarroquin.logitrack.enums;
 
 public enum category_type {
     BEVERAGES,
